@@ -1,7 +1,7 @@
 import streamlit as st
 import openai
 
-openai.api_key=st.secrets['OPENAI_API_KEY']
+openai.api_key='sk-None-SwNCWV71rRHPHjH6QC9aT3BlbkFJwMZxv2OA0Ly2rPA5MCfL'
 
 def request_chat_completion(
     prompt,
